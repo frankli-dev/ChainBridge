@@ -1,4 +1,4 @@
-module github.com/ChainSafe/ChainBridge
+module github.com/frankli-dev/ChainBridge
 
 go 1.15
 
