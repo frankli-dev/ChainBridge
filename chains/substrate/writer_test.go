@@ -12,7 +12,7 @@ import (
 
 	utils "github.com/frankli-dev/ChainBridge/shared/substrate"
 	subtest "github.com/frankli-dev/ChainBridge/shared/substrate/testing"
-	message "github.com/ChainSafe/chainbridge-utils/msg"
+	message "github.com/frankli-dev/chainbridge-utils/msg"
 )
 
 func assertProposalState(t *testing.T, conn *Connection, prop *proposal, votes *voteState, hasValue bool) {

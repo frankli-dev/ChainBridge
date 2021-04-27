@@ -4,7 +4,7 @@
 package chains
 
 import (
-	"github.com/ChainSafe/chainbridge-utils/msg"
+	"github.com/frankli-dev/chainbridge-utils/msg"
 )
 
 type Router interface {

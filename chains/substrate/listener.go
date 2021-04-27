@@ -11,9 +11,9 @@ import (
 
 	"github.com/frankli-dev/ChainBridge/chains"
 	utils "github.com/frankli-dev/ChainBridge/shared/substrate"
-	"github.com/ChainSafe/chainbridge-utils/blockstore"
-	metrics "github.com/ChainSafe/chainbridge-utils/metrics/types"
-	"github.com/ChainSafe/chainbridge-utils/msg"
+	"github.com/frankli-dev/chainbridge-utils/blockstore"
+	metrics "github.com/frankli-dev/chainbridge-utils/metrics/types"
+	"github.com/frankli-dev/chainbridge-utils/msg"
 	"github.com/ChainSafe/log15"
 	"github.com/centrifuge/go-substrate-rpc-client/v3/types"
 )

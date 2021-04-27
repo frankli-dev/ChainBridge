@@ -10,9 +10,9 @@ import (
 	"time"
 
 	utils "github.com/frankli-dev/ChainBridge/shared/substrate"
-	"github.com/ChainSafe/chainbridge-utils/core"
-	"github.com/ChainSafe/chainbridge-utils/keystore"
-	"github.com/ChainSafe/chainbridge-utils/msg"
+	"github.com/frankli-dev/chainbridge-utils/core"
+	"github.com/frankli-dev/chainbridge-utils/keystore"
+	"github.com/frankli-dev/chainbridge-utils/msg"
 	"github.com/ChainSafe/log15"
 	"github.com/centrifuge/go-substrate-rpc-client/v3/types"
 )

@@ -13,7 +13,7 @@ import (
 	bridge "github.com/frankli-dev/ChainBridge/bindings/Bridge"
 	erc20Handler "github.com/frankli-dev/ChainBridge/bindings/ERC20Handler"
 	erc721Handler "github.com/frankli-dev/ChainBridge/bindings/ERC721Handler"
-	"github.com/ChainSafe/chainbridge-utils/keystore"
+	"github.com/frankli-dev/chainbridge-utils/keystore"
 )
 
 var (

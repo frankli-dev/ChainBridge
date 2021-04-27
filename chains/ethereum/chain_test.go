@@ -9,9 +9,9 @@ import (
 	"time"
 
 	ethtest "github.com/frankli-dev/ChainBridge/shared/ethereum/testing"
-	"github.com/ChainSafe/chainbridge-utils/core"
-	"github.com/ChainSafe/chainbridge-utils/keystore"
-	"github.com/ChainSafe/chainbridge-utils/msg"
+	"github.com/frankli-dev/chainbridge-utils/core"
+	"github.com/frankli-dev/chainbridge-utils/keystore"
+	"github.com/frankli-dev/chainbridge-utils/msg"
 	"github.com/ethereum/go-ethereum/common"
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
 )

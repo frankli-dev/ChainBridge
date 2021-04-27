@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	utils "github.com/frankli-dev/ChainBridge/shared/ethereum"
-	"github.com/ChainSafe/chainbridge-utils/msg"
+	"github.com/frankli-dev/chainbridge-utils/msg"
 	"github.com/ethereum/go-ethereum/common"
 )
 

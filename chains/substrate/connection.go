@@ -8,7 +8,7 @@ import (
 	"sync"
 
 	utils "github.com/frankli-dev/ChainBridge/shared/substrate"
-	"github.com/ChainSafe/chainbridge-utils/msg"
+	"github.com/frankli-dev/chainbridge-utils/msg"
 	"github.com/ChainSafe/log15"
 	gsrpc "github.com/centrifuge/go-substrate-rpc-client/v3"
 	"github.com/centrifuge/go-substrate-rpc-client/v3/rpc/author"
@@ -122,7 +122,7 @@ func (c *Connection) SubmitTx(method utils.Method, args ...interface{}) error {
 		Nonce:              types.NewUCompactFromUInt(uint64(c.nonce)),
 		SpecVersion:        rv.SpecVersion,
 		Tip:                types.NewUCompactFromUInt(0),
-		TransactionVersion: 1,
+		TransactionVersion: rv.TransactionVersion,
 	}
 
 	err = ext.Sign(*c.key, o)

@@ -12,7 +12,7 @@ import (
 	"github.com/frankli-dev/ChainBridge/bindings/Bridge"
 	utils "github.com/frankli-dev/ChainBridge/shared/ethereum"
 	ethtest "github.com/frankli-dev/ChainBridge/shared/ethereum/testing"
-	"github.com/ChainSafe/chainbridge-utils/msg"
+	"github.com/frankli-dev/chainbridge-utils/msg"
 	"github.com/ChainSafe/log15"
 	eth "github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/common"

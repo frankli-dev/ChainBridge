@@ -8,7 +8,7 @@ import (
 
 	"github.com/frankli-dev/ChainBridge/bindings/ERC20Handler"
 	ERC20 "github.com/frankli-dev/ChainBridge/bindings/ERC20PresetMinterPauser"
-	"github.com/ChainSafe/chainbridge-utils/msg"
+	"github.com/frankli-dev/chainbridge-utils/msg"
 	"github.com/ethereum/go-ethereum/common"
 )
 

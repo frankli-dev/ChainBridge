@@ -12,8 +12,8 @@ import (
 	"github.com/frankli-dev/ChainBridge/bindings/Bridge"
 	connection "github.com/frankli-dev/ChainBridge/connections/ethereum"
 	utils "github.com/frankli-dev/ChainBridge/shared/ethereum"
-	"github.com/ChainSafe/chainbridge-utils/keystore"
-	"github.com/ChainSafe/chainbridge-utils/msg"
+	"github.com/frankli-dev/chainbridge-utils/keystore"
+	"github.com/frankli-dev/chainbridge-utils/msg"
 	"github.com/ChainSafe/log15"
 	"github.com/ethereum/go-ethereum/common"
 )

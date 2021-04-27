@@ -5,9 +5,9 @@ package ethereum
 
 import (
 	"github.com/frankli-dev/ChainBridge/bindings/Bridge"
-	"github.com/ChainSafe/chainbridge-utils/core"
-	metrics "github.com/ChainSafe/chainbridge-utils/metrics/types"
-	"github.com/ChainSafe/chainbridge-utils/msg"
+	"github.com/frankli-dev/chainbridge-utils/core"
+	metrics "github.com/frankli-dev/chainbridge-utils/metrics/types"
+	"github.com/frankli-dev/chainbridge-utils/msg"
 	"github.com/ChainSafe/log15"
 )
 
